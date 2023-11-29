@@ -49,3 +49,18 @@ Sell - Edit Item
 
 ![image](https://github.com/notfdnadd/weared./assets/142224593/89fc6de6-be3c-4c94-8f4a-1c3378b375b0)
 Sell - Purchase Dashboard
+
+1. As A Buyer
+  1. Create Account
+  2. Login
+  3. Edit Account
+  4. Buy Items Uploaded By Seller
+  5. Purchase History and Real Time Status By The Seller
+
+2. As A Seller
+   1. Create Account
+   2. Login
+   3. Upload Items To Be Sold
+   4. Edit Items Uploaded
+   5. Delete Items Uploaded
+   6. Purchased Items and Update Purchased Items Status To Be Viewed By The Buyer
