@@ -50,6 +50,7 @@ Sell - Edit Item
 ![image](https://github.com/notfdnadd/weared./assets/142224593/89fc6de6-be3c-4c94-8f4a-1c3378b375b0)
 Sell - Purchase Dashboard
 
+## Features
 1. As A Buyer
   1. Create Account
   2. Login
@@ -64,8 +65,8 @@ Sell - Purchase Dashboard
    4. Edit Items Uploaded
    5. Delete Items Uploaded
    6. Purchased Items and Update Purchased Items Status To Be Viewed By The Buyer
-  
-# Also Supporting Us To Reach Our Dreams : 
+
+## Also Supporting Us To Reach Our Dreams : 
   1. Github
   2. HTML
   3. CSS
