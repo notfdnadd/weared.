@@ -51,14 +51,14 @@ Sell - Edit Item
 Sell - Purchase Dashboard
 
 ## Features
-1. As A Buyer
+As A Buyer
   1. Create Account
   2. Login
   3. Edit Account
   4. Buy Items Uploaded By Seller
   5. Purchase History and Real Time Status By The Seller
 
-2. As A Seller
+As A Seller
    1. Create Account
    2. Login
    3. Upload Items To Be Sold
