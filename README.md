@@ -64,3 +64,12 @@ Sell - Purchase Dashboard
    4. Edit Items Uploaded
    5. Delete Items Uploaded
    6. Purchased Items and Update Purchased Items Status To Be Viewed By The Buyer
+  
+# Also Supporting Us To Reach Our Dreams : 
+  1. Github
+  2. HTML
+  3. CSS
+  4. PHP
+  5. Postgres - PSQL
+  6. Javascript
+  7. XAMPP
