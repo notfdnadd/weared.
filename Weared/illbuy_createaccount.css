@@ -1,0 +1,124 @@
+/* CS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sometype Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #D9D9D9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.main_content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.title_homebuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+.boxname,
+.boxusername,
+.boxemail,
+.boxaddress,
+.boxpassword,
+.boxretypepassword,
+.signupbutton input {
+    width: 269px;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--White, #FFF);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.name,
+.username,
+.email,
+.address,
+.password,
+.retypepassword {
+    margin: 10px 0 0 0;
+}
+
+.signupbutton {
+    margin: 17px 0 0 0;
+}
+
+.signupbutton input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Terniary, #534340);
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.signupbutton input:hover {
+    background: #423230;
+}
+
+.or {
+    margin: 0 0 0 0px;
+    width: 25px;
+    display: flex;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 1px;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.left_images {
+    flex-shrink: 0;
+    background: url(Assets/Home/LeftImage.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.left_images img {
+    width: 960px;
+    height: 1200px;
+}
+
+.login-option a {
+    color: #534340;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.login-option a:hover {
+    color: #423230;
+}
+
+.login-option a:visited {
+    color: #534340;
+}
+
+.login-option a:focus {
+    outline: none;
+}
+
+.login-option a:active {
+    color: #534340;
+}

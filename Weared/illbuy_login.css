@@ -1,0 +1,138 @@
+/* CS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sometype Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #D9D9D9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.main_content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.title_homebuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+.boxname,
+.boxusername,
+.boxemail,
+.boxpassword,
+.boxretypepassword,
+.signupbutton input,
+.boxusername,
+.boxpassword,
+.signinbutton input {
+    width: 269px;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--White, #FFF);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.name,
+.username,
+.email,
+.password,
+.retypepassword,
+.username,
+.password {
+    margin: 10px 0 0 0;
+}
+
+.signupbutton,
+.signinbutton {
+    margin: 17px 0 0 0;
+}
+
+.signupbutton input,
+.signinbutton input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Terniary, #534340);
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.signupbutton input:hover,
+.signinbutton input:hover {
+    background: #423230;
+}
+
+.left_images {
+    flex-shrink: 0;
+    background: url(Assets/Home/LeftImage.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.left_images img {
+    width: 960px;
+    height: 1200px;
+}
+
+.signinbutton a {
+    color: #534340;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.signinbutton a:hover {
+    color: #423230;
+}
+
+.signinbutton a:visited {
+    color: #534340;
+}
+
+.signinbutton a:focus {
+    outline: none;
+}
+
+.signinbutton a:active {
+    color: #534340;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.create-account-link {
+    margin-top: 5px;
+}
+
+.create-account-link a {
+    color: #534340;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.create-account-link a:hover {
+    color: #423230;
+}
